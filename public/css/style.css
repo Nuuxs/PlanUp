@@ -1,0 +1,115 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to top, #6cf0b25e, #ffffff);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background: linear-gradient(to top, #ffffff5e, #ffffff);
+            /* color: #00df82; */
+
+        }
+
+        .btn-primary {
+            background-color: #000000;
+            border: none;
+            font-weight: 600;
+            color: #00df82;
+        }
+
+        .btn-primary:hover {
+            background-color: #3f3f3f;
+            color: #00df828a;
+
+        }
+
+        .btn-secondary {
+            background-color: #000000;
+            border: none;
+            font-weight: 600;
+            color: #00df82;
+        }
+
+        .hero-title {
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero-desc {
+            font-size: 1.1rem;
+            color: #000000;
+        }
+
+        .hero-section {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: #00df82;
+            width: 64px;
+            height: 64px;
+            margin: 0 auto;
+            background: rgb(0, 0, 0);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .feature-item {
+            padding: 32px 20px;
+            border-radius: 16px;
+            transition: all 0.35s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+        }
+
+        .feature-icon {
+            transition: all 0.35s ease;
+        }
+
+        .feature-item:hover .feature-icon {
+            transform: scale(1.2);
+            color: #00df828a;
+        }
+
+
+        .preview-image {
+            max-width: 320px;   /* desktop */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .preview-image {
+                max-width: 260px;
+            }
+        }
+
+        .carousel-item {
+            transition: transform 0.8s ease-in-out;
+        }
+
+
+
+
+
+
+
+
+        footer {
+            margin-top: auto;
+        }
+
+
+
+        /* auth */
